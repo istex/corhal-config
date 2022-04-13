@@ -1,0 +1,186 @@
+{
+  "title": {
+    "properties": {
+      "fr": {
+        "type": "text",
+        "analyzer": "customFrenchAnalyzer",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "normalizer": "title:normalizer"
+          }
+        }
+      },
+      "en": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "normalizer": "title:normalizer"
+          }
+        }
+      },
+      "default": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "normalizer": "title:normalizer"
+          }
+        }
+      }
+    }
+  },
+  "abstract": {
+    "properties": {
+      "fr": {
+        "type": "text",
+        "analyzer": "customFrenchAnalyzer"
+      },
+      "en": {
+        "type": "text"
+      },
+      "default": {
+        "type": "text"
+      }
+    }
+  },
+  "classifications": {
+    "properties": {
+      "dewey": {
+        "type": "keyword"
+      },
+      "hal": {
+        "type": "keyword"
+      },
+      "tef": {
+        "type": "keyword"
+      },
+      "thesisDomain": {
+        "type": "keyword"
+      },
+      "enrichments": {
+        "properties": {
+          "hal": {
+            "type": "keyword",
+            "copy_to": "classifications.hal"
+          }
+        }
+      }
+    }
+  },
+  "fulltextUrl": {
+    "type": "keyword"
+  },
+  "funders": {
+    "properties": {
+      "grantNumber": {
+        "type": "keyword"
+      },
+      "fullname": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "doi": {
+        "type": "keyword"
+      }
+    }
+  },
+  "publicationDate": {
+    "type": "date",
+    "ignore_malformed": true,
+    "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||epoch_millis",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "publicationDate:normalizer"
+      }
+    }
+  },
+  "copyrightDate": {
+    "type": "date",
+    "ignore_malformed": true,
+    "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||epoch_millis",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "publicationDate:normalizer"
+      }
+    }
+  },
+  "language": {
+    "type": "keyword"
+  },
+  "genre": {
+    "type": "keyword"
+  },
+  "originalGenre": {
+    "type": "keyword"
+  },
+  "corpusName": {
+    "type": "keyword"
+  },
+  "source": {
+    "type": "keyword"
+  },
+  "sourceIds": {
+    "type": "keyword"
+  },
+  "sourceUid": {
+    "type": "keyword"
+  },
+  "qualityIndicators": {
+    "properties": {
+      "abstractCharCount": {
+        "type": "integer"
+      },
+      "abstractWordCount": {
+        "type": "integer"
+      },
+      "pdfCharCount": {
+        "type": "integer"
+      },
+      "pdfPageCount": {
+        "type": "integer"
+      },
+      "pdfText": {
+        "type": "boolean"
+      },
+      "pdfVersion": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "pdfWordCount": {
+        "type": "integer"
+      },
+      "pdfWordsPerPage": {
+        "type": "integer"
+      },
+      "refBibsNative": {
+        "type": "boolean"
+      },
+      "score": {
+        "type": "double"
+      },
+      "tdmReady": {
+        "type": "boolean"
+      },
+      "teiSource": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}

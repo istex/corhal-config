@@ -1,0 +1,74 @@
+[
+  {
+    "source": "hal",
+    "non_empty": [
+      "halId"
+    ],
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {
+              "halId.normalized": "halId"
+            }
+          }
+        ],
+        "_name": "provider::hal"
+      }
+    }
+  },
+  {
+    "source": "sudoc-theses",
+    "non_empty": [
+      "ppn"
+    ],
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {
+              "ppn.normalized": "ppn"
+            }
+          }
+        ],
+        "_name": "provider::sudoc-theses"
+      }
+    }
+  },
+  {
+    "source": "pubmed",
+    "non_empty": [
+      "pmId"
+    ],
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {
+              "pmId.normalized": "pmId"
+            }
+          }
+        ],
+        "_name": "provider::pubmed"
+      }
+    }
+  },
+  {
+    "source": "crossref",
+    "non_empty": [
+      "doi"
+    ],
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {
+              "doi.normalized": "doi"
+            }
+          }
+        ],
+        "_name": "provider::crossref"
+      }
+    }
+  }
+]

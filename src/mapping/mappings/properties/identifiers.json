@@ -1,0 +1,222 @@
+{
+  "bibCode": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "cern": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "doi": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "arxiv": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "halId": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "idProdinra": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "ensam": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "ineris": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "inspire": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "ird": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "irstea": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "localRef": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "nnt": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "oatao": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "okina": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "patentNumber": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "pii": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "idIstex": {
+    "type": "keyword"
+  },
+  "pmcId": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "pmId": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "ppn": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "reportNumber": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "sciencespo": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "utKey": {
+    "type": "keyword",
+    "fields": {
+      "normalized": {
+        "type": "keyword",
+        "normalizer": "id:normalizer"
+      }
+    }
+  },
+  "ark": {
+    "properties": {
+      "istex": {
+        "type": "keyword"
+      },
+      "publisher": {
+        "type": "keyword"
+      }
+    }
+  }
+}

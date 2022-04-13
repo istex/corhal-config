@@ -1,0 +1,110 @@
+{
+  "authors": {
+    "type": "nested",
+    "properties": {
+      "surname": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "forename": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "fullname": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "halAuthorId": {
+        "type": "keyword"
+      },
+      "idHal": {
+        "type": "keyword"
+      },
+      "researcherId": {
+        "type": "keyword"
+      },
+      "idRef": {
+        "type": "keyword"
+      },
+      "isni": {
+        "type": "keyword"
+      },
+      "orcId": {
+        "type": "keyword"
+      },
+      "viaf": {
+        "type": "keyword"
+      },
+      "affiliations": {
+        "type": "nested",
+        "properties": {
+          "address": {
+            "type": "text",
+            "copy_to": "business.authorsAddresses"
+          },
+          "orgName": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "country": {
+            "type": "keyword"
+          },
+          "isni": {
+            "type": "keyword"
+          },
+          "ref": {
+            "type": "keyword"
+          },
+          "idRef": {
+            "type": "keyword"
+          },
+          "rnsr": {
+            "type": "keyword"
+          },
+          "enrichments": {
+            "dynamic": true,
+            "properties": {
+              "rnsr": {
+                "type": "keyword",
+                "copy_to":["authors.affiliations.rnsr","business.authorsRnsr"]
+              }
+            }
+          }
+        }
+      },
+      "enrichments": {
+        "dynamic": true,
+        "properties": {
+          "idRef": {
+            "type": "keyword",
+            "copy_to":["authors.idRef"]
+          },
+          "orcId": {
+            "type": "keyword",
+            "copy_to":["authors.orcId"]
+          },
+          "idHal": {
+            "type": "keyword",
+            "copy_to":["authors.idHal"]
+          }
+        }
+      }
+    }
+  }
+}

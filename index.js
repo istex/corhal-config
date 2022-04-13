@@ -1,1 +1,4 @@
-module.exports.es = require('./src/es');
+module.exports = {
+  elastic: require('./src/elastic'),
+  deduplicate: require('./src/deduplicate'),
+};

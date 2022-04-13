@@ -26,5 +26,8 @@
     "eslint-config-semistandard": "^16.0.0",
     "eslint-config-standard-jsx": "^10.0.0",
     "semistandard": "^16.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

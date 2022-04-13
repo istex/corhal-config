@@ -1,0 +1,53 @@
+{
+  "enrichments": {
+    "properties": {
+      "openAccess": {
+        "properties": {
+          "unpaywall": {
+            "properties": {
+              "is_oa": {
+                "type": "boolean"
+              },
+              "oa_status": {
+                "type": "keyword"
+              },
+              "has_repository_copy": {
+                "type": "boolean"
+              },
+              "oa_locations": {
+                "type": "nested",
+                "properties": {
+                  "host_type": {
+                    "type": "keyword"
+                  },
+                  "is_best": {
+                    "type": "boolean"
+                  },
+                  "license": {
+                    "type": "keyword"
+                  },
+                  "url": {
+                    "type": "keyword",
+                    "index": false,
+                    "store": true
+                  },
+                  "url_for_landing_page": {
+                    "type": "keyword",
+                    "index": false,
+                    "store": true
+                  },
+                  "url_for_pdf": {
+                    "type": "keyword",
+                    "index": false,
+                    "store": true,
+                    "copy_to": "fulltextUrl"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

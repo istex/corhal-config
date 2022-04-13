@@ -1,0 +1,42 @@
+{
+  "dynamic_templates": [
+    {
+      "enrichments": {
+        "path_match": "*.enrichments",
+        "mapping": {
+          "dynamic": true
+        }
+      }
+    },
+    {
+      "original": {
+        "path_match": "*.original",
+        "mapping": {
+          "type": "boolean"
+        }
+      }
+    },
+    {
+      "mime": {
+        "path_match": "*.mime",
+        "mapping": {
+          "type": "text",
+          "fields": {
+            "raw": {
+              "type": "keyword"
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": {
+        "path_match": "*.path",
+        "mapping": {
+          "type": "text",
+          "index": false
+        }
+      }
+    }
+  ]
+}

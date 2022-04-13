@@ -1,0 +1,104 @@
+{
+  "business": {
+    "properties": {
+      "name": {
+        "type": "keyword"
+      },
+      "sourceUidChain": {
+        "type": "keyword"
+      },
+      "sources": {
+        "type": "keyword"
+      },
+      "hasDoi": {
+        "type": "boolean"
+      },
+      "hasFulltext": {
+        "type": "boolean"
+      },
+      "isDeduplicable": {
+        "type": "boolean"
+      },
+      "hasTransDuplicate": {
+        "type": "boolean"
+      },
+      "isDuplicate": {
+        "type": "boolean"
+      },
+      "first3AuthorNames": {
+        "type": "text",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "author:normalizer"
+          }
+        }
+      },
+      "first3AuthorNamesWithInitials": {
+        "type": "text",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "author:normalizer"
+          }
+        }
+      },
+      "xPublicationDate": {
+        "type": "date",
+        "ignore_malformed": true,
+        "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||yyy-MM||yyyy",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          },
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "publicationDate:normalizer"
+          }
+        }
+      },
+      "xissn": {
+        "type": "keyword",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "id:normalizer"
+          }
+        }
+      },
+      "xisbn": {
+        "type": "keyword",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "id:normalizer"
+          }
+        }
+      },
+      "pageRange": {
+        "type": "text",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "volpage:normalizer"
+          }
+        }
+      },
+      "articleNumber": {
+        "type": "text",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "id:normalizer"
+          }
+        }
+      },
+      "authorsRnsr": {
+        "type": "keyword"
+      },
+      "authorsAddresses": {
+        "type": "text"
+      }
+    }
+  }
+}
