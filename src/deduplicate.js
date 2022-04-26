@@ -1,5 +1,5 @@
 module.exports = {
   rules: require('./deduplicate/rules.json'),
-  rulesProvider: require('./deduplicate/rules_provider.json'),
+  providerRules: require('./deduplicate/provider_rules.json'),
   scenario: require('./deduplicate/scenario.json'),
 };
