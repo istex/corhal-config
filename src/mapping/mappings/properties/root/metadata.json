@@ -127,7 +127,7 @@
   "source": {
     "type": "keyword"
   },
-  "sourceIds": {
+  "sourceId": {
     "type": "keyword"
   },
   "sourceUid": {

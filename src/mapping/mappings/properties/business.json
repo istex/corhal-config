@@ -4,6 +4,9 @@
       "name": {
         "type": "keyword"
       },
+      "duplicateGenre": {
+        "type": "keyword"
+      },
       "sourceUidChain": {
         "type": "keyword"
       },

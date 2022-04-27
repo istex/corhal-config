@@ -5,9 +5,6 @@
         "type": "date",
         "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||epoch_millis"
       },
-      "sessionName": {
-        "type": "keyword"
-      },
       "modificationDate": {
         "type": "date",
         "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||epoch_millis"
@@ -15,6 +12,9 @@
       "deletionDate": {
         "type": "date",
         "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||epoch_millis"
+      },
+      "sessionName": {
+        "type": "keyword"
       },
       "teiXsltVersion": {
         "type": "keyword"

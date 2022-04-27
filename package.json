@@ -4,6 +4,7 @@
   "description": "Centralized configuration for Istex applications",
   "main": "index.js",
   "scripts": {
+    "mapping:output": "node ./bin/output-mapping.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "semistandard": "^16.0.1"
   },
   "dependencies": {
+    "fs-extra": "^10.1.0",
     "lodash": "^4.17.21"
   }
 }

@@ -1,113 +1,117 @@
 {
-  "metadata": {
+  "files": {
     "properties": {
-      "mime": {
-        "type": "text",
-        "fields": {
-          "raw": {
-            "type": "keyword"
+      "metadata": {
+        "properties": {
+          "mime": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "original": {
+            "type": "boolean",
+            "index": false
+          },
+          "partOfSet": {
+            "type": "text",
+            "index": false
+          },
+          "path": {
+            "type": "text",
+            "index": false
+          },
+          "valFile": {
+            "type": "text",
+            "index": false
+          },
+          "xmlValid": {
+            "type": "boolean",
+            "index": false
+          },
+          "xmlWellFormed": {
+            "type": "boolean",
+            "index": false
           }
         }
       },
-      "original": {
-        "type": "boolean",
-        "index": false
-      },
-      "partOfSet": {
-        "type": "text",
-        "index": false
-      },
-      "path": {
-        "type": "text",
-        "index": false
-      },
-      "valFile": {
-        "type": "text",
-        "index": false
-      },
-      "xmlValid": {
-        "type": "boolean",
-        "index": false
-      },
-      "xmlWellFormed": {
-        "type": "boolean",
-        "index": false
-      }
-    }
-  },
-  "fulltext": {
-    "properties": {
-      "mime": {
-        "type": "text",
-        "fields": {
-          "raw": {
-            "type": "keyword"
+      "fulltext": {
+        "properties": {
+          "mime": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "original": {
+            "type": "boolean",
+            "index": false
+          },
+          "path": {
+            "type": "text",
+            "index": false
           }
         }
       },
-      "original": {
-        "type": "boolean",
-        "index": false
-      },
-      "path": {
-        "type": "text",
-        "index": false
-      }
-    }
-  },
-  "annexes": {
-    "properties": {
-      "mime": {
-        "type": "text",
-        "fields": {
-          "raw": {
-            "type": "keyword"
+      "annexes": {
+        "properties": {
+          "mime": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "original": {
+            "type": "boolean",
+            "index": false
+          },
+          "path": {
+            "type": "text",
+            "index": false
           }
         }
       },
-      "original": {
-        "type": "boolean",
-        "index": false
-      },
-      "path": {
-        "type": "text",
-        "index": false
-      }
-    }
-  },
-  "covers": {
-    "properties": {
-      "mime": {
-        "type": "text",
-        "fields": {
-          "raw": {
-            "type": "keyword"
+      "covers": {
+        "properties": {
+          "mime": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "original": {
+            "type": "boolean",
+            "index": false
+          },
+          "path": {
+            "type": "text",
+            "index": false
           }
         }
       },
-      "original": {
-        "type": "boolean",
-        "index": false
-      },
-      "path": {
-        "type": "text",
-        "index": false
-      }
-    }
-  },
-  "index": {
-    "properties": {
-      "mime": {
-        "type": "text",
-        "fields": {
-          "raw": {
-            "type": "keyword"
+      "index": {
+        "properties": {
+          "mime": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
+          },
+          "path": {
+            "type": "text",
+            "index": false
           }
         }
-      },
-      "path": {
-        "type": "text",
-        "index": false
       }
     }
   }
