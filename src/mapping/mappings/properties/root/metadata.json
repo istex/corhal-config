@@ -5,7 +5,7 @@
         "type": "text",
         "analyzer": "customFrenchAnalyzer",
         "fields": {
-          "keyword": {
+          "normalized": {
             "type": "keyword",
             "normalizer": "title:normalizer"
           }
@@ -14,7 +14,7 @@
       "en": {
         "type": "text",
         "fields": {
-          "keyword": {
+          "normalized": {
             "type": "keyword",
             "normalizer": "title:normalizer"
           }
@@ -23,7 +23,7 @@
       "default": {
         "type": "text",
         "fields": {
-          "keyword": {
+          "normalized": {
             "type": "keyword",
             "normalizer": "title:normalizer"
           }

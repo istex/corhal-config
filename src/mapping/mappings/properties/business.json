@@ -4,9 +4,6 @@
       "name": {
         "type": "keyword"
       },
-      "duplicateGenre": {
-        "type": "keyword"
-      },
       "sourceUidChain": {
         "type": "keyword"
       },
@@ -19,6 +16,9 @@
       "hasFulltext": {
         "type": "boolean"
       },
+      "duplicateGenre": {
+        "type": "keyword"
+      },
       "isDeduplicable": {
         "type": "boolean"
       },
@@ -27,6 +27,29 @@
       },
       "isDuplicate": {
         "type": "boolean"
+      },
+      "duplicates": {
+        "type": "nested",
+        "properties": {
+          "internalId": {
+            "type": "keyword"
+          },
+          "sourceUid": {
+            "type": "keyword"
+          },
+          "rules": {
+            "type": "text"
+          },
+          "sessionName": {
+            "type": "keyword"
+          },
+          "source": {
+            "type": "keyword"
+          }
+        }
+      },
+      "duplicateRules": {
+        "type": "keyword"
       },
       "first3AuthorNames": {
         "type": "text",

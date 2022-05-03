@@ -4,7 +4,8 @@
   "description": "Centralized configuration for Istex applications",
   "main": "index.js",
   "scripts": {
-    "mapping:output": "node ./bin/output-mapping.js",
+    "es:mapping:log": "./bin/es-mapping-log.js",
+    "es:mapping:output": "./bin/es-mapping-output.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

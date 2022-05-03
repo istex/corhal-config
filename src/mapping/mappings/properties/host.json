@@ -407,6 +407,15 @@
                 "type": "keyword"
               }
             }
+          },
+          "range": {
+            "type": "keyword",
+            "fields": {
+              "normalized": {
+                "type": "keyword",
+                "normalizer": "volpage:normalizer"
+              }
+            }
           }
         }
       },
