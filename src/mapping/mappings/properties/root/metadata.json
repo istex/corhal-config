@@ -51,7 +51,18 @@
         "type": "keyword"
       },
       "hal": {
-        "type": "keyword"
+        "properties": {
+          "code": {
+            "type": "keyword"
+          },
+          "fr": {
+            "type": "text",
+            "analyzer": "customFrenchAnalyzer"
+          },
+          "en": {
+            "type": "text"
+          }
+        }
       },
       "tef": {
         "type": "keyword"
@@ -62,8 +73,21 @@
       "enrichments": {
         "properties": {
           "hal": {
-            "type": "keyword",
-            "copy_to": "classifications.hal"
+            "properties": {
+              "code": {
+                "type": "keyword",
+                "copy_to": "classifications.hal.code"
+              },
+              "fr": {
+                "type": "text",
+                "analyzer": "customFrenchAnalyzer",
+                "copy_to": "classifications.hal.fr"
+              },
+              "en": {
+                "type": "text",
+                "copy_to": "classifications.hal.en"
+              }
+            }
           }
         }
       }
