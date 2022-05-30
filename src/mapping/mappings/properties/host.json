@@ -4,7 +4,7 @@
       "title": {
         "type": "text",
         "fields":{
-          "keyword":{
+          "normalized":{
             "type": "keyword",
             "normalizer": "title:normalizer"
           }
@@ -451,6 +451,9 @@
             "type": "text"
           }
         }
+      },
+      "language": {
+        "type": "keyword"
       }
     }
   }

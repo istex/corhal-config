@@ -53,7 +53,8 @@
       "hal": {
         "properties": {
           "code": {
-            "type": "keyword"
+            "type": "keyword",
+            "copy_to": "business.classifications.hal.code"
           },
           "fr": {
             "type": "text",
@@ -76,7 +77,7 @@
             "properties": {
               "code": {
                 "type": "keyword",
-                "copy_to": "classifications.hal.code"
+                "copy_to": "business.classifications.hal.code"
               },
               "fr": {
                 "type": "text",
@@ -177,7 +178,7 @@
       "pdfVersion": {
         "type": "text",
         "fields": {
-          "raw": {
+          "keyword": {
             "type": "keyword"
           }
         }
@@ -200,7 +201,54 @@
       "teiSource": {
         "type": "text",
         "fields": {
-          "raw": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  },
+  "keywords": {
+    "properties": {
+      "en": {
+        "properties": {
+          "author": {
+            "type": "keyword"
+          },
+          "mesh": {
+            "type": "keyword"
+          }
+        }
+      },
+      "fr": {
+        "properties": {
+          "author": {
+            "type": "keyword"
+          },
+          "mesh": {
+            "type": "keyword"
+          },
+          "rameau": {
+            "type": "keyword"
+          }
+        }
+      },
+      "und": {
+        "properties": {
+          "author": {
+            "type": "keyword"
+          },
+          "mesh": {
+            "type": "keyword"
+          }
+        }
+      },
+      "other": {
+        "properties": {
+          "author": {
+            "type": "keyword"
+          },
+          "mesh": {
             "type": "keyword"
           }
         }

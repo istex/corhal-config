@@ -96,6 +96,7 @@
         },
         "french_stop": {
           "type": "stop",
+          "ignore_case": false,
           "stopwords": "_french_"
         },
         "french_stemmer": {

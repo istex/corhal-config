@@ -1,6 +1,9 @@
 {
   "technical": {
     "properties": {
+      "internalId": {
+        "type": "keyword"
+      },
       "creationDate": {
         "type": "date",
         "format": "yyy-MM-dd HH:mm:ss||yyy-MM-dd||epoch_millis"

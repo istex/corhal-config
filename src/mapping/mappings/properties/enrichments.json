@@ -28,18 +28,15 @@
                   },
                   "url": {
                     "type": "keyword",
-                    "index": false,
-                    "store": true
+                    "index": false
                   },
                   "url_for_landing_page": {
                     "type": "keyword",
-                    "index": false,
-                    "store": true
+                    "index": false
                   },
                   "url_for_pdf": {
                     "type": "keyword",
                     "index": false,
-                    "store": true,
                     "copy_to": "fulltextUrl"
                   }
                 }

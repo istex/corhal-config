@@ -86,6 +86,17 @@
       "bso": ["STRING"]
     },
     "openAccess": {
+      "is_oa": "BOOLEAN",
+      "oa_status": "STRING",
+      "has_repository_copy": "BOOLEAN",
+      "oa_locations": {
+          "host_type": "STRING",
+          "is_best": "BOOLEAN",
+          "license": "STRING",
+          "url": "STRING",
+          "url_for_landing_page": "STRING",
+          "url_for_pdf": "STRING"
+      },
       "core": ["STRING"],
       "unpaywall": ["STRING"]
     },

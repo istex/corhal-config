@@ -1,6 +1,9 @@
 {
   "business": {
     "properties": {
+      "classifications.hal.code": {
+        "type": "keyword"
+      },
       "name": {
         "type": "keyword"
       },

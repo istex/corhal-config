@@ -6,6 +6,7 @@
   "scripts": {
     "es:mapping:log": "./bin/es-mapping-log.js",
     "es:mapping:output": "./bin/es-mapping-output.js",
+    "es:mapping-paths:log": "./bin/es-mapping-paths-log.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "fs-extra": "^10.1.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "node-jq": "^2.3.3"
   }
 }
