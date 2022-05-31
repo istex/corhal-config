@@ -7,6 +7,7 @@
     "es:mapping:log": "./bin/es-mapping-log.js",
     "es:mapping:output": "./bin/es-mapping-output.js",
     "es:mapping-paths:log": "./bin/es-mapping-paths-log.js",
+    "deduplicate:rules:validate": "./bin/deduplicate-rules-validate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
