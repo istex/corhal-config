@@ -113,15 +113,6 @@
           }
         }
       },
-      "articleNumber": {
-        "type": "text",
-        "fields": {
-          "normalized": {
-            "type": "keyword",
-            "normalizer": "id:normalizer"
-          }
-        }
-      },
       "authorsRnsr": {
         "type": "keyword"
       },

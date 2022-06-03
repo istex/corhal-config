@@ -1408,7 +1408,7 @@
     "non_empty": [
       "title.en",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1432,7 +1432,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1455,7 +1455,7 @@
     "non_empty": [
       "title.en",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1479,7 +1479,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1502,7 +1502,7 @@
     "non_empty": [
       "title.fr",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1526,7 +1526,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1549,7 +1549,7 @@
     "non_empty": [
       "title.fr",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1573,7 +1573,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1596,7 +1596,7 @@
     "non_empty": [
       "title.default",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1620,7 +1620,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1643,7 +1643,7 @@
     "non_empty": [
       "title.default",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1667,7 +1667,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1691,7 +1691,7 @@
       "title.fr",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1719,7 +1719,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1743,7 +1743,7 @@
       "title.default",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1771,7 +1771,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -1795,7 +1795,7 @@
       "title.en",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate",
       "business.xissn"
     ],
@@ -1823,7 +1823,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2004,7 +2004,7 @@
       "host.title",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2036,7 +2036,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2056,7 +2056,7 @@
       "host.title",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2088,7 +2088,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2108,7 +2108,7 @@
       "host.title",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2140,7 +2140,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2541,7 +2541,7 @@
       "title.en",
       "host.title",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2569,7 +2569,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2588,7 +2588,7 @@
       "title.en",
       "host.title",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2616,7 +2616,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2635,7 +2635,7 @@
       "title.fr",
       "host.title",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2663,7 +2663,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2682,7 +2682,7 @@
       "title.fr",
       "host.title",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2710,7 +2710,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2729,7 +2729,7 @@
       "title.default",
       "host.title",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2757,7 +2757,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2776,7 +2776,7 @@
       "title.default",
       "host.title",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2804,7 +2804,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2823,7 +2823,7 @@
       "title.en",
       "host.title",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2851,7 +2851,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2870,7 +2870,7 @@
       "title.en",
       "host.title",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2898,7 +2898,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2917,7 +2917,7 @@
       "title.fr",
       "host.title",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2945,7 +2945,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -2964,7 +2964,7 @@
       "title.fr",
       "host.title",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -2992,7 +2992,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3011,7 +3011,7 @@
       "title.default",
       "host.title",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3039,7 +3039,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3058,7 +3058,7 @@
       "title.default",
       "host.title",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3086,7 +3086,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3262,7 +3262,7 @@
       "host.title",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3294,7 +3294,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3314,7 +3314,7 @@
       "host.title",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3346,7 +3346,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3366,7 +3366,7 @@
       "host.title",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3398,7 +3398,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3699,7 +3699,7 @@
       "title.en",
       "host.conference.name",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3727,7 +3727,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3746,7 +3746,7 @@
       "title.en",
       "host.conference.name",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3774,7 +3774,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3793,7 +3793,7 @@
       "title.fr",
       "host.conference.name",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3821,7 +3821,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3840,7 +3840,7 @@
       "title.fr",
       "host.conference.name",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3868,7 +3868,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3887,7 +3887,7 @@
       "title.default",
       "host.conference.name",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3915,7 +3915,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -3934,7 +3934,7 @@
       "title.default",
       "host.conference.name",
       "host.volume",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -3962,7 +3962,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -4138,7 +4138,7 @@
       "host.conference.name",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -4170,7 +4170,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -4190,7 +4190,7 @@
       "host.conference.name",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -4222,7 +4222,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -4242,7 +4242,7 @@
       "host.conference.name",
       "host.volume",
       "host.issue",
-      "business.articleNumber",
+      "articleNumber",
       "business.xPublicationDate"
     ],
     "is_empty": [
@@ -4274,7 +4274,7 @@
           },
           {
             "match": {
-              "business.articleNumber.normalized": "business.articleNumber"
+              "articleNumber.normalized": "articleNumber"
             }
           },
           {
@@ -4335,7 +4335,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+MeetingTitle+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+MeetingTitle+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4387,7 +4387,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+MeetingTitle+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+MeetingTitle+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4439,7 +4439,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+MeetingTitle+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+MeetingTitle+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4491,7 +4491,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+MeetingTitle+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+MeetingTitle+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4543,7 +4543,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+MeetingTitle+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+MeetingTitle+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4595,7 +4595,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+MeetingTitle+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+MeetingTitle+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4652,7 +4652,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+MeetingTitle+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+MeetingTitle+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4709,7 +4709,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+MeetingTitle+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+MeetingTitle+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4766,7 +4766,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+MeetingTitle+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+MeetingTitle+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4818,7 +4818,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+Ti_Source+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+Ti_Source+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4870,7 +4870,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+Ti_Source+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+Ti_Source+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4922,7 +4922,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+Ti_Source+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+Ti_Source+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -4974,7 +4974,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+Ti_Source+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+Ti_Source+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5026,7 +5026,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+Ti_Source+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+Ti_Source+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5078,7 +5078,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+Ti_Source+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+Ti_Source+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5135,7 +5135,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+Ti_Source+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+Ti_Source+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5192,7 +5192,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+Ti_Source+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+Ti_Source+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5249,7 +5249,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+Ti_Source+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+Ti_Source+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5301,7 +5301,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+Ti_SourceM+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+Ti_SourceM+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5353,7 +5353,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+Ti_SourceM+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+Ti_SourceM+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5405,7 +5405,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+Ti_SourceM+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+Ti_SourceM+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5457,7 +5457,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+Ti_SourceM+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+Ti_SourceM+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5509,7 +5509,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+Ti_SourceM+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+Ti_SourceM+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5561,7 +5561,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+Ti_SourceM+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+Ti_SourceM+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5618,7 +5618,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+Ti_SourceM+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+Ti_SourceM+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5675,7 +5675,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+Ti_SourceM+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+Ti_SourceM+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -5732,7 +5732,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+Ti_SourceM+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+Ti_SourceM+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6234,7 +6234,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+business.xissn+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+business.xissn+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6286,7 +6286,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+business.xissn+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+business.xissn+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6338,7 +6338,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+business.xissn+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+business.xissn+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6390,7 +6390,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+business.xissn+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+business.xissn+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6442,7 +6442,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+business.xissn+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+business.xissn+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6494,7 +6494,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+business.xissn+volume+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+business.xissn+volume+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6551,7 +6551,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_FRE+business.xissn+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_FRE+business.xissn+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6608,7 +6608,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC+business.xissn+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC+business.xissn+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },
@@ -6665,7 +6665,7 @@
             }
           }
         ],
-        "_name": "2Collation:TiC_ENG+business.xissn+volume+issue+host.meetingAbstractNumber+annee"
+        "_name": "2Collation:TiC_ENG+business.xissn+volume+issue+meetingAbstractNumber+annee"
       }
     }
   },

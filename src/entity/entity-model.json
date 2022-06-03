@@ -10,6 +10,7 @@
     "publisher": "STRING"
   },
   "arxiv": "STRING",
+  "articleNumber": "STRING",
   "authorNames": "STRING",
   "authors": [
     {
@@ -58,7 +59,6 @@
     "duplicateRules": ["STRING"],
     "first3AuthorNames": "STRING",
     "first3AuthorNamesWithInitials": "STRING",
-    "articleNumber": "STRING",
     "hasDoi": "BOOLEAN",
     "hasFulltext": "BOOLEAN",
     "hasTransDuplicate": "BOOLEAN",
