@@ -108,7 +108,10 @@
         {
           "name": "fullname",
           "type": "simpleString",
-          "path": "normalize-space(concat(/TEI:author/TEI:persName/TEI:forename,' ',/TEI:author/TEI:persName/TEI:surname))"
+          "path": [
+            "normalize-space(concat(/TEI:author/TEI:persName/TEI:forename,' ',/TEI:author/TEI:persName/TEI:surname))",
+            "normalize-space(/TEI:author/TEI:orgName)"
+          ]
         },
         {
           "name": "halAuthorId",
