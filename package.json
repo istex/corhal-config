@@ -26,10 +26,11 @@
   },
   "homepage": "https://github.com/istex/corhal-config#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-semistandard": "^16.0.0",
-    "eslint-config-standard-jsx": "^10.0.0",
-    "semistandard": "^16.0.1"
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "dependencies": {
     "fs-extra": "^10.1.0",
