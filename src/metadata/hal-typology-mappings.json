@@ -1,0 +1,103 @@
+[
+  {
+    "source": "sudoc-theses",
+    "mapping": {
+      "Thèse de doctorat": "THESE"
+    }
+  },
+  {
+    "source": "sudoc-ouvrages",
+    "mapping": {
+      "Actes de congrès": "DOUV",
+      "Biographies": "OUV",
+      "Catalogues d'exposition": "OUV",
+      "Congrès": "DOUV",
+      "Encyclopédies": "OUV",
+      "Mélanges": "OUV",
+      "Mélanges et hommages": "OUV",
+      "Ouvrage": "OUV",
+      "Monographie": "OUV"
+    }
+  },
+  {
+    "source": "pubmed",
+    "mapping": {
+      "Address":"ART",
+      "Autobiography":"ART",
+      "Bibliography":"ART",
+      "Biography":"ART",
+      "Book chapter":"COUV",
+      "Case Reports":"ART",
+      "Classical Article":"ART",
+      "Clinical Conference":"ART",
+      "Clinical Study":"ART",
+      "Clinical Trial":"ART",
+      "Clinical Trial, Phase I":"ART",
+      "Clinical Trial, Phase II":"ART",
+      "Clinical Trial, Phase III":"ART",
+      "Clinical Trial, Phase IV":"ART",
+      "Clinical Trial Protocol":"ART",
+      "Clinical Trial, Veterinary":"ART",
+      "Comment":"ART",
+      "Comparative Study":"ART",
+      "Congress":"DOUV",
+      "Consensus Development Conference":"COMM",
+      "Consensus Development Conference, NIH":"COMM",
+      "Controlled Clinical Trial":"ART",
+      "Dataset":"ART",
+      "Editorial":"ART",
+      "English Abstract":"ART",
+      "Equivalence Trial":"ART",
+      "Evaluation Study":"ART",
+      "Guideline":"ART",
+      "Historical Article":"ART",
+      "Interview":"ART",
+      "Introductory Journal Article":"ART",
+      "Journal Article":"ART",
+      "Lecture":"ART",
+      "Legal Case":"ART",
+      "Letter":"ART",
+      "Meta-Analysis":"ART",
+      "Multicenter Study":"ART",
+      "News":"ART",
+      "Observational Study":"ART",
+      "Patient Education Handout":"ART",
+      "Personal Narrative":"ART",
+      "Portrait":"ART",
+      "Practice Guideline":"ART",
+      "Pragmatic Clinical Trial":"ART",
+      "Published Erratum":"ART",
+      "Randomized Controlled Trial":"ART",
+      "Research Support, American Recovery and Reinvestment Act":"ART",
+      "Research Support, N.I.H., Extramural":"ART",
+      "Research Support, N.I.H., Intramural":"ART",
+      "Research Support, Non-U.S. Gov't":"ART",
+      "Research Support, U.S. Gov't, Non-P.H.S.":"ART",
+      "Research Support, U.S. Gov't, P.H.S.":"ART",
+      "Retracted Publication":"ART",
+      "Retraction of Publication":"ART",
+      "Review":"ART",
+      "Systematic Review":"ART",
+      "Technical Report":"REPORT",
+      "Twin Study":"ART",
+      "Validation Studies":"ART",
+      "Video-Audio Media":"VIDEO",
+      "Webcasts":"VIDEO"
+    }
+  },
+  {
+    "source": "crossref",
+    "mapping": {
+      "Journal article":	"ART",
+      "conference_paper":	"COMM",
+      "chapter":	"COUV",
+      "section":	"COUV",
+      "reference_entry":	"COUV",
+      "monograph":	"OUV",
+      "edited_book":	"OUV",
+      "reference":	"OUV",
+      "book":	"OUV",
+      "other":	"COUV"
+    }
+  }
+]
