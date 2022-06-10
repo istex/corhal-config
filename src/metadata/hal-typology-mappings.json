@@ -88,16 +88,16 @@
   {
     "source": "crossref",
     "mapping": {
-      "Journal article":	"ART",
-      "conference_paper":	"COMM",
-      "chapter":	"COUV",
-      "section":	"COUV",
-      "reference_entry":	"COUV",
-      "monograph":	"OUV",
-      "edited_book":	"OUV",
-      "reference":	"OUV",
-      "book":	"OUV",
-      "other":	"COUV"
+      "Journal article": "ART",
+      "conference_paper": "COMM",
+      "chapter": "COUV",
+      "section": "COUV",
+      "reference_entry": "COUV",
+      "monograph": "OUV",
+      "edited_book": "OUV",
+      "reference": "OUV",
+      "book": "OUV",
+      "other": "COUV"
     }
   }
 ]
