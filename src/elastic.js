@@ -1,5 +1,5 @@
-const {buildMapping} = require('./buildMapping');
-const {aliases, aliasesMapping} = require('./aliases');
+const { buildMapping } = require('./buildMapping');
+const { aliases, aliasesMapping } = require('./aliases');
 
 module.exports = {
   nodes: process.env.ES_NODES || 'http://localhost:9200',
