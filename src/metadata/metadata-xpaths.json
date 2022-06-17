@@ -399,7 +399,7 @@
         ]
       },
       {
-        "name": "editor",
+        "name": "editors",
         "type": "bloc",
         "path": "//TEI:monogr//TEI:editor",
         "fields": {

@@ -326,7 +326,7 @@
           }
         }
       },
-      "editor": {
+      "editors": {
         "properties": {
           "affiliations": {
             "type": "nested",
