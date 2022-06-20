@@ -75,7 +75,8 @@
             "type": "keyword"
           },
           "rnsr": {
-            "type": "keyword"
+            "type": "keyword",
+            "copy_to": "business.authorsRnsr"
           },
           "enrichments": {
             "dynamic": true,
