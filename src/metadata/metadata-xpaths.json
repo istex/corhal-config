@@ -31,30 +31,6 @@
     "path": "//TEI:body//TEI:biblFull/TEI:sourceDesc/TEI:biblStruct/TEI:idno[@type='arxiv']"
   },
   {
-    "name": "authorNames",
-    "type": "bloc",
-    "path": "//TEI:body//TEI:biblFull//TEI:sourceDesc//TEI:author[@role='aut' or @role='crp']/TEI:persName",
-    "separator": " ",
-    "concat": true,
-    "fields": {
-      "type": "array",
-      "concat": true,
-      "separator": " ",
-      "fields": [
-        {
-          "name": "surname",
-          "type": "simpleString",
-          "path": "//TEI:surname"
-        },
-        {
-          "name": "forename",
-          "type": "simpleString",
-          "path": "//TEI:forename"
-        }
-      ]
-    }
-  },
-  {
     "name": "authors",
     "type": "bloc",
     "path": "//TEI:body/TEI:listBibl/TEI:biblFull/TEI:sourceDesc//TEI:author[@role='aut' or @role='crp']",
