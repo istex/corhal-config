@@ -281,6 +281,15 @@
           }
         }
       },
+      "otherNumber": {
+        "type": "keyword",
+        "fields": {
+          "normalized": {
+            "type": "keyword",
+            "normalizer": "id:normalizer"
+          }
+        }
+      },
       "conference": {
         "properties": {
           "name": {
@@ -317,7 +326,7 @@
           }
         }
       },
-      "editor": {
+      "editors": {
         "properties": {
           "affiliations": {
             "type": "nested",

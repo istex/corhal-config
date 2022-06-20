@@ -252,7 +252,7 @@
     },
     "copyrightDate": "STRING",
     "doi": "STRING",
-    "editor": [
+    "editors": [
       {
         "forename": "STRING",
         "fullname": "STRING",
@@ -393,7 +393,7 @@
           }
         ],
         "doi": "STRING",
-        "editor": "STRING",
+        "editors": "STRING",
         "isbn": "STRING",
         "issn": "STRING",
         "issue": "STRING",
@@ -435,7 +435,7 @@
     },
     "copyrightDate": "STRING",
     "doi": "STRING",
-    "editor": {
+    "editors": {
       "affiliations": [
         {
           "address": "STRING",
