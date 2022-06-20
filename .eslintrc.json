@@ -10,6 +10,7 @@
   "rules": {
     "semi": ["error", "always"],
     "no-extra-semi": "error",
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": ["error", "always-multiline"],
+    "complexity": ["error", 10]
   }
 }
