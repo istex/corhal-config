@@ -5,22 +5,22 @@
         "properties": {
           "unpaywall": {
             "properties": {
-              "is_oa": {
+              "isOa": {
                 "type": "boolean"
               },
-              "oa_status": {
+              "oaStatus": {
                 "type": "keyword"
               },
-              "has_repository_copy": {
+              "hasRepositoryCopy": {
                 "type": "boolean"
               },
-              "oa_locations": {
+              "oaLocations": {
                 "type": "nested",
                 "properties": {
-                  "host_type": {
+                  "hostType": {
                     "type": "keyword"
                   },
-                  "is_best": {
+                  "isBest": {
                     "type": "boolean"
                   },
                   "license": {
@@ -30,11 +30,11 @@
                     "type": "keyword",
                     "index": false
                   },
-                  "url_for_landing_page": {
+                  "urlForLandingPage": {
                     "type": "keyword",
                     "index": false
                   },
-                  "url_for_pdf": {
+                  "urlForPdf": {
                     "type": "keyword",
                     "index": false,
                     "copy_to": "fulltextUrl"

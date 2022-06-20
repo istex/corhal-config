@@ -85,19 +85,19 @@
       "bso": ["STRING"]
     },
     "openAccess": {
-      "is_oa": "BOOLEAN",
-      "oa_status": "STRING",
-      "has_repository_copy": "BOOLEAN",
-      "oa_locations": {
-          "host_type": "STRING",
-          "is_best": "BOOLEAN",
+      "unpaywall": {
+        "isOa": "BOOLEAN",
+        "oaStatus": "STRING",
+        "hasRepositoryCopy": "BOOLEAN",
+        "oaLocations": {
+          "hostType": "STRING",
+          "isBest": "BOOLEAN",
           "license": "STRING",
           "url": "STRING",
-          "url_for_landing_page": "STRING",
-          "url_for_pdf": "STRING"
-      },
-      "core": ["STRING"],
-      "unpaywall": ["STRING"]
+          "urlForLandingPage": "STRING",
+          "urlForPdf": "STRING"
+        }
+      }
     },
     "namedEntities": {
       "nerd": "STRING",
@@ -106,12 +106,12 @@
         "date": "STRING",
         "geogName": "STRING",
         "orgName": "STRING",
-        "orgName_funder": "STRING",
-        "orgName_provider": "STRING",
+        "orgNameFunder": "STRING",
+        "orgNameProvider": "STRING",
         "persName": "STRING",
         "placeName": "STRING",
-        "ref_bibl": "STRING",
-        "ref_url": "STRING"
+        "refBibl": "STRING",
+        "refUrl": "STRING"
       }
     }
   },
@@ -346,7 +346,7 @@
   },
   "language": ["STRING"],
   "localRef": "STRING",
-  "_mergedDocuments": {
+  "mergedDocuments": {
     "sources": ["STRING"],
     "sourceIds": ["STRING"],
     "sourceUids": ["STRING"]
