@@ -301,12 +301,12 @@
     "meetingAbstractNumber": "STRING",
     "otherNumber": "STRING",
     "part": "STRING",
-    "pages": {
+    "pages": [{
       "first": "STRING",
       "last": "STRING",
       "range": "STRING",
       "total": "NUMBER"
-    },
+    }],
     "publicationDate": "STRING",
     "publisher": "STRING",
     "publisherId": "STRING",
@@ -450,11 +450,11 @@
     "issn": "STRING",
     "issue": "STRING",
     "language": "STRING",
-    "pages": {
+    "pages": [{
       "first": "STRING",
       "last": "STRING",
       "total": "NUMBER"
-    },
+    }],
     "publicationDate": "STRING",
     "title": "STRING"
   },

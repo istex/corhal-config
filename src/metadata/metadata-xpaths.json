@@ -196,6 +196,17 @@
           "type": "simpleString",
           "path": "."
         }
+      },
+      {
+        "name": "pageRange",
+        "type": "object",
+        "fields": [
+          {
+            "name": "range",
+            "type": "simpleString",
+            "path": "//TEI:body//TEI:biblScope[@unit='pp']"
+          }
+        ]
       }
     ]
   },
