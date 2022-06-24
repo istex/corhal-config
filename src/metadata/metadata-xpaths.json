@@ -341,7 +341,7 @@
           "path": "//TEI:idno[@type='grantNumber']"
         },
         {
-          "name": "name",
+          "name": "fullname",
           "type": "simpleString",
           "path": "//TEI:name"
         }

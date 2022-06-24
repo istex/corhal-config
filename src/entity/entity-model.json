@@ -223,7 +223,7 @@
     {
       "doi": "STRING",
       "grantNumber": "STRING",
-      "name": "STRING"
+      "fullname": "STRING"
     }
   ],
   "genre": "STRING",
