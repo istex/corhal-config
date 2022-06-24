@@ -205,6 +205,59 @@
           "type": "simpleString",
           "path": "."
         }
+      },
+      {
+        "name": "first3AuthorNames",
+        "type": "bloc",
+        "path": "//TEI:body//TEI:biblFull//TEI:sourceDesc//TEI:author[@role='aut' or @role='crp']//TEI:persName",
+        "separator": " ",
+        "limit": 3,
+        "concat": true,
+        "fields": {
+          "type": "array",
+          "concat": true,
+          "separator": " ",
+          "fields": [
+            {
+              "name": "surname",
+              "type": "simpleString",
+              "path": "//TEI:surname"
+            },
+            {
+              "name": "forename",
+              "type": "simpleString",
+              "path": "//TEI:forename"
+            }
+          ]
+        }
+      },
+      {
+        "name": "first3AuthorNamesWithInitials",
+        "type": "bloc",
+        "path": "//TEI:body//TEI:biblFull//TEI:sourceDesc//TEI:author[@role='aut' or @role='crp']//TEI:persName",
+        "separator": " ",
+        "limit": 3,
+        "concat": true,
+        "fields": {
+          "separator": " ",
+          "type": "array",
+          "concat": true,
+          "fields": [
+            {
+              "name": "surname",
+              "type": "simpleString",
+              "path": "//TEI:surname"
+            },
+            {
+              "name": "forename",
+              "path": "//TEI:forename",
+              "type": "simpleString",
+              "regexp": "(?:\\s*\\b)([a-zA-Z])(?:[^\\s-]*)",
+              "flag": "gm",
+              "replace": "$1"
+            }
+          ]
+        }
       }
     ]
   },
@@ -264,59 +317,6 @@
     "name": "ensam",
     "type": "simpleString",
     "path": "//TEI:body//TEI:biblFull//TEI:idno[@type='ensam']"
-  },
-  {
-    "name": "first3AuthorNames",
-    "type": "bloc",
-    "path": "//TEI:body//TEI:biblFull//TEI:sourceDesc//TEI:author[@role='aut' or @role='crp']//TEI:persName",
-    "separator": " ",
-    "limit": 3,
-    "concat": true,
-    "fields": {
-      "type": "array",
-      "concat": true,
-      "separator": " ",
-      "fields": [
-        {
-          "name": "surname",
-          "type": "simpleString",
-          "path": "//TEI:surname"
-        },
-        {
-          "name": "forename",
-          "type": "simpleString",
-          "path": "//TEI:forename"
-        }
-      ]
-    }
-  },
-  {
-    "name": "first3AuthorNamesWithInitials",
-    "type": "bloc",
-    "path": "//TEI:body//TEI:biblFull//TEI:sourceDesc//TEI:author[@role='aut' or @role='crp']//TEI:persName",
-    "separator": " ",
-    "limit": 3,
-    "concat": true,
-    "fields": {
-      "separator": " ",
-      "type": "array",
-      "concat": true,
-      "fields": [
-        {
-          "name": "surname",
-          "type": "simpleString",
-          "path": "//TEI:surname"
-        },
-        {
-          "name": "forename",
-          "path": "//TEI:forename",
-          "type": "simpleString",
-          "regexp": "(?:\\s*\\b)([a-zA-Z])(?:[^\\s-]*)",
-          "flag": "gm",
-          "replace": "$1"
-        }
-      ]
-    }
   },
   {
     "name": "fulltextUrl",
