@@ -199,14 +199,12 @@
       },
       {
         "name": "pageRange",
-        "type": "object",
-        "fields": [
-          {
-            "name": "range",
-            "type": "simpleString",
-            "path": "//TEI:body//TEI:biblScope[@unit='pp']"
-          }
-        ]
+        "type": "bloc",
+        "path": "//TEI:body//TEI:biblScope[@unit='pp']",
+        "fields": {
+          "type": "simpleString",
+          "path": "."
+        }
       }
     ]
   },
