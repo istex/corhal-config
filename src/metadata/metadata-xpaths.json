@@ -267,7 +267,7 @@
     "path": "//TEI:body//TEI:biblFull//TEI:idno[@type='cern']"
   },
   {
-    "name": "classification",
+    "name": "classifications",
     "type": "object",
     "fields": [
       {
@@ -284,8 +284,17 @@
         "type": "bloc",
         "path": "//TEI:body//TEI:profileDesc//TEI:textClass//TEI:classCode[@scheme='halDomain']",
         "fields": {
-          "type": "simpleString",
-          "path": "."
+          "type": "object",
+          "fields": [{
+            "name": "code",
+            "type": "simpleString",
+            "path": "//@n"
+          },
+          {
+            "name": "en",
+            "type": "simpleString",
+            "path": "."
+          }]
         }
       },
       {
