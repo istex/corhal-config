@@ -149,6 +149,10 @@
   "corpusName": {
     "type": "keyword"
   },
+  "docObject": {
+    "type": "flattened",
+    "index": false
+  },
   "source": {
     "type": "keyword"
   },
