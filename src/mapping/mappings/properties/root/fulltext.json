@@ -1,0 +1,6 @@
+{
+  "fulltext": {
+    "type": "text",
+    "analyzer": "placeholderAnalyzer"
+  }
+}

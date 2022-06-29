@@ -10,6 +10,7 @@ const files = require('./mapping/mappings/properties/files.json');
 const enrichments = require('./mapping/mappings/properties/enrichments.json');
 const identifiers = require('./mapping/mappings/properties/root/identifiers.json');
 const metadata = require('./mapping/mappings/properties/root/metadata.json');
+const fulltext = require('./mapping/mappings/properties/root/fulltext.json');
 
 module.exports = { buildMapping };
 
@@ -24,6 +25,7 @@ function _buildMappings () {
   return assign({}, mappings, dynamicTemplates, {
     properties: merge(
       _sort(metadata),
+      _sort(fulltext),
       _sort(identifiers),
       business,
       technical,
