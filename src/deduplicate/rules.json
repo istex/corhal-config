@@ -5821,7 +5821,7 @@
         "must": [
           {
             "match": {
-              "title.default.normalized": "title.fr"
+              "title.default.normalized": "title.default"
             }
           },
           {
