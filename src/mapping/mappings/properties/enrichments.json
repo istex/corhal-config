@@ -38,6 +38,10 @@
                     "type": "keyword",
                     "index": false,
                     "copy_to": "fulltextUrl"
+                  },
+                  "version": {
+                    "type": "keyword",
+                    "index": false
                   }
                 }
               }
